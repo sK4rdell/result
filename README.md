@@ -14,13 +14,13 @@ A robust TypeScript implementation of the Result pattern for elegant error handl
 ## Installation
 
 ```bash
-npm install @kardell/results
+npm install @kardell/result
 ```
 
 ## Basic Usage
 
 ```ts
-import { Result } from "@kardell/results";
+import { Result } from "@kardell/result";
 
 // Success case
 const success = Result.of<number, Error>(42);
